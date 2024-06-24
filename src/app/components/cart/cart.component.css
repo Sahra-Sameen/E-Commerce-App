@@ -1,0 +1,86 @@
+.card{
+    height: 65vh;
+    margin: 25px;
+    padding: 25px;
+}
+
+h1{
+    color: purple;
+    font-weight: bold;
+}
+h4, h6{
+    font-weight: bold ;
+}
+
+.center{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: none;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+}
+
+.center .btn{
+    font-size: 14px !important;
+    margin-top: 20px !important;
+    font-weight: 400;
+    padding: 12px 72px;
+    border-radius: 3px !important;
+}
+
+.btn{
+    border-radius: 8px;
+    background: purple ;
+    color: white;
+    padding: 3px;
+    margin-top: 5px;
+    width: 15rem;
+    margin-left: 0.5rem;
+}
+
+.btn:hover{
+    border-color: purple;
+    background: white;
+    color: purple;
+    font-weight: bold;
+}
+
+.center img{
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    height: 162px;
+    width: 250px;
+    margin: 20px 0px;
+}
+
+.danger-btn{
+    max-width: wrap-content;
+    background: red ;
+    color: white;
+}
+
+.btn-danger,.btn-primary,.btn-success{
+    width: 8rem;
+}
+
+.primary-btn{
+    border-radius: 5px;
+    background: purple ;
+    color: white;
+    padding: 0;
+    width: 15rem;
+}
